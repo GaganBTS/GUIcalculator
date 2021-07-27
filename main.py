@@ -82,6 +82,10 @@ buttonresult = Button(window,text="=",**button_prop,command=lambda:write("="))
 buttonresult.grid(column=3,row=4)
 btn_clr = Button(window,text="Clear",**button_prop,command=clear)
 btn_clr.grid(column=2,row=5,columnspan=2,ipadx=40,pady=10)
+bracket1 = Button(text="(",**button_prop,command=lambda:write("("))
+bracket1.grid(column=0,row=5)
+bracket2 = Button(text=")",**button_prop,command=lambda:write(")"))
+bracket2.grid(column=1,row=5)
 
 
 window.mainloop()
