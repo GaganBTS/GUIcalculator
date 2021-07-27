@@ -17,7 +17,7 @@ def result():
       result = eval(exp)
     except:
         messagebox.showerror(title="INVALID INPUT",message="Please enter valid expression excluding characters like "
-                                                           "alphabets,=,brackets etc.")
+                                                           "alphabets,= etc.")
     else:
 
      expression_text.delete(0,END)
